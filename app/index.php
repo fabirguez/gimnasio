@@ -11,6 +11,8 @@
 // phpinfo();
 
 
+
+
 require_once 'controllers/controlador.php';
 //Definimos un objeto controlador
 $controlador = new controlador();

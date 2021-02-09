@@ -11,9 +11,9 @@ class modelo {
   private $conexion;
   // Parámetros de conexión a la base de datos 
   private $host = "localhost";
-  private $user = "root";
-  private $pass = "";
-  private $db = "bdgimnasio";
+  private $user = "admin";
+  private $pass = "admin";
+  private $db = "bdgim";
 
   /**
    * Constructor de la clase que ejecutará directamente el método 'conectar()'
