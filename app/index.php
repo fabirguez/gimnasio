@@ -1,4 +1,48 @@
 <?php
+  
+/*   error_reporting(E_ALL);
+  ini_set('ignore_repeated_errors', TRUE);
+  ini_set('display_errors', FALSE);
+  ini_set('log_errors', TRUE);
+  ini_set('error_log', '/vagrant/source/gimnasio/php-error.log');
+  error_log('Inicio de la app'); */
+
+  echo 'hola';
+  require_once 'libs/app.php';
+
+  $app = new App();
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Script que se encarga de redirigir las rutas de los enlaces pulsado en la
  * vista del listado. A él deberá llegar el nombre de la acción y, si fuese
@@ -13,7 +57,7 @@
 
 
 
-require_once 'controllers/controlador.php';
+/* require_once 'controllers/controlador.php';
 //Definimos un objeto controlador
 $controlador = new controlador();
 
@@ -32,3 +76,4 @@ else :
   $controlador->index();
 endif; 
 
+ */
