@@ -10,9 +10,9 @@ class modelo {
   //Atributo que contendrá la referencia a la base de datos 
   private $conexion;
   // Parámetros de conexión a la base de datos 
-  private $host = "localhost";
-  private $user = "admin";
-  private $pass = "admin";
+  private $host = "192.168.0.254";
+  private $user = "root";
+  private $pass = "1234";
   private $db = "bdgim";
 
   /**
