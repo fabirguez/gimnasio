@@ -1,6 +1,7 @@
 <?php
 
-class Login extends Controller
+//extiende de session controller que a su vez extiende de controller
+class Login extends SessionController
 {
     public function __construct()
     {

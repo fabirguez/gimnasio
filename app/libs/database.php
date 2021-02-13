@@ -2,10 +2,10 @@
 
 class Database
 {
-    private $host = '192.168.0.254';
+    private $host = 'localhost';
     private $user = 'root';
-    private $pass = '1234';
-    private $db = 'bdgim';
+    private $pass = '';
+    private $db = 'gimnasio';
     // private $charset;
 
     public function __construct()
